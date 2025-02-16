@@ -25,7 +25,11 @@
 
 ---
 
-
+<div align="center">
+  <video width="100%" controls>
+    <source src="https://raw.githubusercontent.com/ParasSalunke/Stega-Shield/main/public/demo.mp4" type="video/mp4">
+  </video>
+</div>
 
 # 🛡️Stega-Shield
 
