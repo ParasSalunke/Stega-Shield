@@ -44,10 +44,12 @@ const ImageDecoder = () => {
             try {
                 const parsedData = JSON.parse(extractedData);
 
-                if (parsedData.isProtected) {
+                if (parsedData.type === 'protected') {
                     setRequiresPassword(true);
+
                     if (!password) {
                         setError('This image is password protected. Please enter the password.');
+                        setIsProcessing(false);
                         return;
                     }
 
@@ -56,20 +58,20 @@ const ImageDecoder = () => {
                         setDecodedMessage(decryptedMessage);
                         setError('');
                     } catch (err) {
-                        setError(`Decryption failed: ${err.message || 'Invalid password'}`);
+                        setError('Invalid password or corrupted data', err.message);
                         return;
                     }
                 } else {
+                    // Handle unprotected messages
                     setDecodedMessage(parsedData.data || extractedData);
                 }
             } catch (err) {
-                // Handle JSON parsing error with specific error message
+                // If JSON parsing fails, try to show the raw message
                 console.warn('JSON parsing failed:', err.message);
-                setError('Image contains non-encrypted message');
                 setDecodedMessage(extractedData);
             }
         } catch (err) {
-            setError(`Failed to decode message: ${err.message}`);
+            setError('No hidden message found or image is corrupted', err.message);
             setDecodedMessage('');
         } finally {
             setIsProcessing(false);

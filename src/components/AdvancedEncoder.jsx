@@ -50,9 +50,13 @@ const AdvancedEncoder = () => {
 
         setIsProcessing(true);
         try {
+            // Encrypt the message first
+            const encryptedData = await encryptMessage(message, settings.password);
+
+            // Create a structured message object
             const processedMessage = JSON.stringify({
-                isProtected: true,
-                data: await encryptMessage(message, settings.password),
+                type: 'protected',
+                data: encryptedData,
                 timestamp: new Date().toISOString()
             });
 
@@ -61,6 +65,7 @@ const AdvancedEncoder = () => {
                 processedMessage,
                 qualityPresets[settings.quality].compression
             );
+
             setHiddenImage(encodedImage);
             setError('');
         } catch (err) {
