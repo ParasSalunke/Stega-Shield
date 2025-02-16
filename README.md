@@ -5,21 +5,21 @@
 
   <p>A modern steganography tool for secure message hiding in images</p>
 
-  [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+  [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/ParasSalunke/Stega-Shield/blob/main/LICENSE)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-  [![GitHub Stars](https://img.shields.io/github/stars/parasalunke/Stega-Shield)](https://github.com/parasalunke/Stega-Shield/stargazers)
-  [![GitHub Issues](https://img.shields.io/github/issues/parasalunke/Stega-Shield)](https://github.com/parasalunke/Stega-Shield/issues)
-  [![GitHub Forks](https://img.shields.io/github/forks/parasalunke/Stega-Shield)](https://github.com/parasalunke/Stega-Shield/network/members)
-  [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/parasalunke/Stega-Shield/issues)
+  [![GitHub Stars](https://img.shields.io/github/stars/ParasSalunke/Stega-Shield)](https://github.com/ParasSalunke/Stega-Shield/stargazers)
+  [![GitHub Issues](https://img.shields.io/github/issues/ParasSalunke/Stega-Shield)](https://github.com/ParasSalunke/Stega-Shield/issues)
+  [![GitHub Forks](https://img.shields.io/github/forks/ParasSalunke/Stega-Shield)](https://github.com/ParasSalunke/Stega-Shield/network/members)
+  [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ParasSalunke/Stega-Shield/issues)
   [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg)](https://reactjs.org/)
-
+  [![Powered by Vite](https://img.shields.io/badge/Powered%20by-Vite-646CFF.svg)](https://vitejs.dev/)
 
   <div align="center">
     <a href="https://stega-shield.vercel.app">View Demo</a>
     ·
-    <a href="https://github.com/parasalunke/Stega-Shield/issues">Report Bug</a>
+    <a href="https://github.com/ParasSalunke/Stega-Shield/issues">Report Bug</a>
     ·
-    <a href="https://github.com/parasalunke/Stega-Shield/issues">Request Feature</a>
+    <a href="https://github.com/ParasSalunke/Stega-Shield/issues">Request Feature</a>
   </div>
 </div>
 
@@ -99,11 +99,11 @@ Stega-Shield is a modern web application that lets you hide secret messages with
   - Industry-standard cryptographic functions
 
 
-## 🚀 Installation
+## 🚀Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/parasalunke/Stega-Shield.git
+git clone https://github.com/ParasSalunke/Stega-Shield.git
 ```
 
 2. Navigate to project directory:
@@ -139,7 +139,7 @@ Your application will be available at `http://localhost:5173` by default.
 ### Quick Setup (Single Command)
 
 ```bash
-git clone https://github.com/parasalunke/Stega-Shield.git && cd stega-shield && npm install && npm run dev
+git clone https://github.com/ParasSalunke/Stega-Shield.git && cd stega-shield && npm install && npm run dev
 ```
 
 ## 📁Project Structure
