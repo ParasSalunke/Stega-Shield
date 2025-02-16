@@ -127,7 +127,8 @@ const AdvancedEncoder = () => {
                         <li>Upload an image (max 5MB)</li>
                         <li>Choose quality setting (affects message capacity)</li>
                         <li>Set a password for security</li>
-                        <li>Enter your message and encode</li>
+                        <li>Type or paste your valid secret message only</li>
+                        <li>Click &quot;Encode Content&quot; to hide your message in the image</li>
                     </ul>
                     <p className="mt-2">
                         🔒 Password protection ensures only authorized users can decode your message.

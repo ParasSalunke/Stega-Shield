@@ -82,7 +82,7 @@ const ImageEncoder = () => {
                     <span className="font-semibold">How it works:</span>
                     <ul className="list-disc ml-4 mt-2">
                         <li>Upload any image (max 5MB)</li>
-                        <li>Type or paste your secret message</li>
+                        <li>Type or paste your valid secret message only</li>
                         <li>Click &quot;Hide Message&quot; to encode</li>
                         <li>Download the encoded image to share</li>
                     </ul>
