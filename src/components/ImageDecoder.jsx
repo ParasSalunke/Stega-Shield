@@ -118,6 +118,7 @@ const ImageDecoder = () => {
                         Upload Encoded Image
                     </label>
                     <input
+                        title='Choose an image to decode'
                         id="encoded-image"
                         type="file"
                         accept="image/*"

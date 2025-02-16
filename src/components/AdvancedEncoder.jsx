@@ -145,6 +145,7 @@ const AdvancedEncoder = () => {
                                 Upload Cover Image
                             </label>
                             <input
+                                title='Choose an image to encode'
                                 id="cover-image"
                                 type="file"
                                 accept="image/*"

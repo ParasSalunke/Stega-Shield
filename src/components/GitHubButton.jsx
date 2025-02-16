@@ -21,17 +21,15 @@ const GitHubButton = ({ repoOwner, repoName }) => {
 
     return (
         <a
+            title='GitHub Repository'
             href={`https://github.com/${repoOwner}/${repoName}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-700 transition-colors duration-200"
+            className="inline-flex items-center gap-1.5 px-2 py-1 text-sm bg-gray-800 text-white rounded-md hover:bg-gray-700 transition-colors"
         >
-            <FaGithub className="h-4 w-4 sm:h-5 sm:w-5" />
-            <span className="text-sm sm:text-base">Star</span>
-            <div className="flex items-center gap-1 px-2 py-0.5 bg-white/20 rounded">
-                <FaStar className="h-3 w-3 sm:h-4 sm:w-4" />
-                <span className="text-sm sm:text-base">{starCount}</span>
-            </div>
+            <FaGithub className="h-4 w-4" />
+            <span className="border-l border-gray-600 pl-2">{starCount}</span>
+            <FaStar className="h-3 w-3 text-yellow-400" />
         </a>
     );
 };
