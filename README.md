@@ -26,8 +26,8 @@
 ---
 
 <div align="center">
-  <video width="100%" controls>
-    <source src="https://raw.githubusercontent.com/ParasSalunke/Stega-Shield/main/public/demo.mp4" type="video/mp4">
+  <video src="https://github.com/user-attachments/assets/216f59f0-72a4-4a82-a74d-e7f9aa21a855" controls>
+    Your browser does not support the video tag.
   </video>
 </div>
 
