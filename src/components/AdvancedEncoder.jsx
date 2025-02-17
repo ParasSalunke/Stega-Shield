@@ -89,11 +89,6 @@ const AdvancedEncoder = () => {
             // Draw the original image
             ctx.drawImage(img, 0, 0);
 
-            // Add watermark
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
-            ctx.font = '20px Arial';
-            ctx.fillText('🔒 Password Protected', 20, 40);
-
             // Create download link
             const link = document.createElement('a');
             link.href = canvas.toDataURL('image/png');
